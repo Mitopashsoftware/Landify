@@ -337,7 +337,8 @@ body{
         float: right;
         position: relative;
         top: -13.7em;
-        left: -2em;
+        left: -1.2em;
+
     }
     .topnav.responsive .logo {
         float: none;
