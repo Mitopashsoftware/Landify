@@ -1,0 +1,993 @@
+body{
+    font-family: Inter;
+    src: url(inter.ttf); 
+    background: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.topnav {
+    overflow: hidden;
+    
+}
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    top: 10%;
+  
+}
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    /* background-color: #ddd; */
+    color: black;
+    float: left;
+  }
+  
+  .topnav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    text-align: center;
+    padding: 7px 10px 3px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .ancor{
+    margin-right: 42px;
+    margin-left: -80px;
+  }
+  .topnav .logo img {
+    width: 30px;
+    height: auto;
+  }
+  .imglogos{
+    position: relative;
+    right: -5em;
+  }
+  
+  .topnav .logo .imglogos{
+    height: 20px;
+    width: 100px;
+  }
+  .topnav .logo:hover {
+    background: transparent;
+  }
+  
+  .topnav button {
+    display: none;
+  }
+  .topnav a.lastGoogle{
+    display: block;
+   }
+  .container {
+    padding: 0px 10px;
+  }
+  @media screen and (max-width: 800px) {
+      .topnav a:not(:first-child) {
+          display: none;
+          
+      }
+      .topnav a.logo 
+      {
+        float: left;  
+        padding: 0;
+        display: flex;
+        align-items:center;
+        cursor: pointer;
+        position: relative;
+        margin-right:1em;
+        left: 1em;
+      }
+      .topnav button.icon {
+          float:right;
+          padding: 0;
+          display: block;
+          padding: 15px 13px;
+          border: 0;
+          outline:none;
+          cursor: pointer;
+          position: relative;
+          right: 5%;
+          top: 0.5em;
+        }
+      .topnav button.icon1{
+        display: none;
+       float: right;
+    
+
+      }
+      .topnav a.active {
+        /* background-color: #ddd; */
+        color: black;
+        display: none;
+        }
+       .topnav a.lastGoogle{
+        display: block;
+       }
+       
+      button.icon:focus, button.icon:hover {
+          border: 0;
+          outline: none;
+          /* background: #b3b3b3; */
+      }
+       .imglogos{
+        display: none;
+      } 
+  }
+  @media screen and (min-width: 800px) {
+      .topnav {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+      }
+      .topnav .logo .imglogos{
+        display: none;
+      } 
+      
+  }
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        position: relative;
+        left:4em;
+        gap: 10px;
+      }
+    .topnav.responsive .icon {
+      display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .topnav.responsive button.icon1{
+        display: block;
+        float: right;
+        position: relative;
+        top: -13.7em;
+        left: -2em;
+    }
+    .topnav.responsive .logo {
+        float: none;
+        display: flex;
+        align-items: center;
+        gap: 10;
+        margin-left: 16.5px;
+        position: static;
+  } 
+  
+  }
+  body{
+    font-family: Inter;
+    src: url(inter.ttf); 
+    margin: 0;
+    padding: 0%;
+    overflow-x: hidden;
+   background: rgba(255, 255, 255, 1);
+}
+.topnav {
+    overflow: hidden;
+    /* background-color: #eee; */
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    top: 10%;
+
+
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    /* background-color: #ddd; */
+    color: black;
+    float: left;
+  }
+  
+  .topnav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    text-align: center;
+    padding: 7px 10px 3px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .ancor{
+    margin-right: 42px;
+    margin-left: -80px;
+  }
+  .topnav .logo img {
+    width: 30px;
+    height: auto;
+  }
+  .imglogos{
+    position: relative;
+    right: -5em;
+  }
+  
+  .topnav .logo .imglogos{
+    height: 20px;
+    width: 100px;
+  }
+  .topnav .logo:hover {
+    background: transparent;
+  }
+  
+  .topnav button {
+    display: none;
+  }
+  .topnav a.lastGoogle{
+    display: block;
+   }
+  .container {
+    padding: 0px 10px;
+  }
+  @media screen and (max-width: 800px) {
+      .topnav a:not(:first-child) {
+          display: none;
+          
+      }
+      .topnav a.logo 
+      {
+        float: left;  
+        padding: 0;
+        display: flex;
+        align-items:center;
+        cursor: pointer;
+        position: relative;
+        margin-right:1em;
+        left: 1em;
+      }
+      .topnav button.icon {
+          float:right;
+          padding: 0;
+          display: block;
+          padding: 15px 13px;
+          border: 0;
+          outline:none;
+          cursor: pointer;
+          position: relative;
+          right: 5%;
+          top: 0.5em;
+        }
+      .topnav button.icon1{
+        display: none;
+       float: right;
+    
+
+      }
+      .topnav a.active {
+        /* background-color: #ddd; */
+        color: black;
+        display: none;
+        }
+       .topnav a.lastGoogle{
+        display: block;
+       }
+       
+      button.icon:focus, button.icon:hover {
+          border: 0;
+          outline: none;
+          /* background: #b3b3b3; */
+      }
+       .imglogos{
+        display: none;
+      } 
+  }
+  @media screen and (min-width: 800px) {
+      .topnav {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+      }
+      .topnav .logo .imglogos{
+        display: none;
+      } 
+      
+  }
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        position: relative;
+        left:4em;
+        gap: 10px;
+      }
+    .topnav.responsive .icon {
+      display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .topnav.responsive button.icon1{
+        display: block;
+        float: right;
+        position: relative;
+        top: -13.7em;
+        left: -2em;
+    }
+    .topnav.responsive .logo {
+        float: none;
+        display: flex;
+        align-items: center;
+        gap: 10;
+        margin-left: 16.5px;
+        position: static;
+  } 
+  
+  }
+  
+  .lastGoogle{
+    display: none;
+    float: right;
+    margin-right:10px;
+    margin-top: 10px;
+}
+.h1{
+    position: absolute;
+    left: 15%;
+    top: 11%;
+    font-size: 30px;
+    display: none;
+}
+.h2{
+    display: block;
+    position: absolute;
+    left: 14%;
+    font-size: 30px;
+    
+}
+.h3{
+    position: absolute;
+    left: 14%;
+    top: 38%;
+    font-size: 15px;
+}
+.buttonimg{
+    position: absolute;
+    top: 55%;
+    left: 14%;
+}
+.buttonimg1{
+    position: absolute;
+    top: 55%;
+    left: 27%;
+}
+.rightBand{
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -10%;
+ }
+ .rightBand1{
+  display: block;
+  position: absolute;
+  top: 56.7%;
+  right: -5%;
+ }
+ .rightBand2{
+  display: block;
+  position: absolute;
+  top: 41.5%;
+  right: -5%;
+ }
+ .leftBand{
+  display: block;
+  position: absolute;
+  top: 71%;
+  left: -1%;
+ }
+ .leftBand1{
+  display: block;
+  position: absolute;
+  top: 84%;
+  left: -1%;
+ }
+ .Phonimg{
+  position: absolute;
+  top: 15%;
+  right: 6%;
+}
+.mobileBand{
+  display: none;
+}
+ .mobileBand1{
+  display: none;
+ }
+ .Phonimg2{
+  display: none;
+}
+.TabletBand{
+  display: none;
+}
+.TabletBand1{
+  display: none;
+}
+.TabletBand2{
+  display: none;
+}
+.TabletBand3{
+  display: none;
+}
+.Phonimg1{
+  display: none;
+}
+.footer{
+    
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  padding-right:1000px ;
+  font-size: 30px;
+  text-align: center;
+  left: -1%;
+  position: absolute;
+  top:95%
+
+}
+
+
+.air{
+position: absolute;
+top:200%;
+left: 20%;
+
+}
+
+.air1{
+position: absolute;
+top:200%;
+left: 40%;
+
+}
+
+
+.air2{
+position: absolute;
+top:200%;
+left: 60%;
+
+}
+
+
+.air3{
+position: absolute;
+top:200%;
+left: 80%;
+
+}
+
+
+.air4{
+position: absolute;
+top:200%;
+left: 113%;
+
+}
+.air5{
+position: absolute;
+top: 200%;
+left: 100%;
+}
+.Tailor{
+  position: absolute;
+  top: 115%;
+  font-size: 30px;
+  text-align: center;
+  left: 30%;
+ }
+
+
+
+  .Tailor1{
+    position:absolute;
+    top: 132%;
+    font-size: 20px;
+    left: 20%;
+    text-align: center;
+  }
+  .logo1{
+    position: absolute;
+    top: 155%;
+    left: 18%;
+  }
+  .rob{
+    position: absolute;
+    top: 160%;
+    left: 10%;
+    font-size: 15px;
+  }
+  .rob1{
+    position: absolute;
+    top: 168%;
+    left: 7%;
+    text-align: center;
+  }
+  .logo2{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+  }
+  .flex{
+    position: absolute;
+    top: 160%;
+    left:46%;
+    font-size: 15px;
+  }
+  .flex1{
+    position: absolute;
+    top: 168%;
+    left:40%;
+    font-size: 15px;
+    text-align: center;
+  
+  }
+  .logo3{
+    position: absolute;
+    top: 155%;
+    left: 80%;
+  }
+  .user{
+    position: absolute;
+    top: 160%;
+    left:75%;
+    font-size: 15px;
+  }
+  .user1{
+    position: absolute;
+    top: 168%;
+    left:71%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .logo4{
+    position: absolute;
+    top: 190%;
+    left: 18%;
+  }
+  .mul{
+    position: absolute;
+    top: 195%;
+    left: 11%;
+    font-size: 15px;
+  }
+  .mul1{
+    position: absolute;
+    top: 203%;
+    left: 8%;
+    text-align: center;
+  }
+  .logo5{
+    position: absolute;
+    top: 190%;
+    left: 50%;
+  }
+  .better{
+    position: absolute;
+    top: 195%;
+    left:42%;
+    font-size: 15px;
+  }
+  .better1{
+    position: absolute;
+    top: 203%;
+    left:41%;
+    font-size: 15px;
+    text-align: center;
+  
+  }
+  .logo6{
+    position: absolute;
+    top: 190%;
+    left: 80%;
+  }
+  .well{
+    position: absolute;
+    top: 195%;
+    left:74%;
+    font-size: 15px;
+  }
+  .well1{
+    position: absolute;
+    top: 205%;
+    left:71%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .sm {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 100%;
+    margin-top: 14%;
+    background: rgba(213, 250, 252, 1);
+    margin-left: -10vh;
+    padding-right: 65%;
+    color: white;
+    top: 200%;
+  }
+
+  .m {
+
+    padding: 300px;
+    margin-left: -10vh;
+
+  }
+  .doubleQutions{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    
+  }
+  .Real{
+    position: absolute;
+    top: 10%;
+    left: 26%;
+    color: black;
+    
+  }
+  .Real1{
+    position: absolute;
+    top: 12%;
+    left: 17%;
+    color: black;
+    display: none;
+  }
+  .paregrap{
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    color: black;
+    font-weight: 400;
+  }
+  .cardimg{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+    
+  }
+  .cardimgTab{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    display: none;
+    
+  }
+  .cardimgTab1{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    display: none;
+    
+  }
+  .cardimgTab2{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    display: none;
+  }
+  .cardimg1{
+    position: absolute;
+    top: 22%;
+    left: 57%;
+  }
+  .cardimg2{
+    position: absolute;
+    top: 65%;
+    left: 57%;
+  }
+.cardimg1m{
+  display: none;
+}
+.our{
+  position: absolute;
+  top: 335%;
+  left: 10%;
+  font-size: 20px;
+}
+.our1{
+  display: none;
+}
+.paregrap1{
+  position: absolute;
+  top: 353%;
+  left: 10%;
+}
+.flogo{
+  position: absolute;
+  top: 342%;
+  right: 40%;
+}
+.sub{
+  position: absolute;
+  top: 336%;
+  right: 28%;
+}
+.sub1{
+  position: absolute;
+  top: 344%;
+  right: 28%;
+  font-size: 14px;
+}
+.flogo1{
+  position: absolute;
+  top: 342%;
+  right: 20%;
+}
+.Million{
+  position: absolute;
+  top: 336%;
+  right: 8%;
+}
+.Million1{
+  position: absolute;
+  top: 344%;
+  right: 14.5%;
+  font-size: 14px;
+}
+.flogo2{
+  position: absolute;
+  top: 357%;
+  right: 40.5%;
+}
+.client{
+  position: absolute;
+  top: 352%;
+  right: 31%;
+}
+.client1{
+  position: absolute;
+  top: 360%;
+  right: 33.5%;
+  font-size: 14px;
+}
+.flogo3{
+  position: absolute;
+  top: 355%;
+  right: 19%;
+}
+.countries{
+  position: absolute;
+  top: 351%;
+  right: 13%;
+}
+.countries1{
+  position: absolute;
+  top: 359%;
+  right: 12.5%;
+  font-size: 14px;
+}
+.OurMobile{
+  display: block;
+}
+.Easy{
+  position: absolute;
+  top: 380%;
+  left: 10%;
+}
+.Easy1{
+  position: absolute;
+  top: 395%;
+  left: 10%;
+}
+.Easy2{
+  display: none;
+}
+.vector{
+  position: absolute;
+  right: 15%;
+  top: 385%;
+}
+.vector1{
+  position: absolute;
+  right: 15%;
+  top: 385%;
+  display: none;
+}
+.footer1{
+  background-image: linear-gradient(to bottom,rgba(29, 181, 190, 1) 0%,rgba(29, 181, 190, 1) 70%, black 0%,black 40%);
+   min-height: 40vh; 
+ position: absolute;
+ top: 430%;
+ padding: 170px;
+ padding-right: 1180px;
+
+}
+.Manage{
+ position: absolute;
+ font-size: 20px;
+ top:1%;
+ color: black;
+ font-size: 20px;
+}
+.ManageTab{
+ position: absolute;
+ font-size: 20px;
+ top:1%;
+ color: black;
+ font-size: 20px;
+ display: none;
+}
+.Manage1{
+ position: absolute;
+ font-size: 15px;
+ top:23%;
+ color: black;
+
+}
+.Get{
+ position: absolute;
+ font-size: 20px;
+ top: 40%;
+ color: black;
+}
+.playImg{
+ position: absolute;
+ top: 50%;
+ display: block;
+}
+.playImg1{
+ position: absolute;
+ top: 50%;
+display: none;
+}
+.scrren{
+ position: absolute;
+ right: 5%;
+ top: 0%;
+ display: block;
+}
+.scrren1{
+ position: absolute;
+ right: 1%;
+ top: 0%;
+ display: none;
+
+}
+.scrren2{
+ position: absolute;
+ right: 1%;
+ top: 0%;
+ display: none;
+
+}
+.landify
+{
+ position: absolute;
+ top: 73%;
+ left: 10%;
+ color: white;
+}
+.landify1{
+ position:absolute;
+ top: 79%;
+ left: 22%;
+ color: #ddd;
+}
+.landify2{
+ position: absolute;
+ top: 85%;
+ left: 10%;
+ color: #ddd;
+ 
+}
+.landify3{
+ position: absolute;
+ top: 85%;
+ left: 15%;
+ color: #ddd;
+ 
+}
+.landify4{
+ position: absolute;
+ top: 85%;
+ left: 22%;
+ color: #ddd;
+ 
+}
+.landify5{
+ position: absolute;
+ top: 85%;
+ left: 28%;
+ color: #ddd;
+ 
+}
+.landify6{
+ position: absolute;
+ top: 85%;
+ left: 33%;
+ color: #ddd;
+ 
+}
+.landify7{
+ position: absolute;
+ top: 85%;
+ left: 38%;
+ color: #ddd;
+ 
+}
+.headline{
+ position: absolute;
+ top: 92%;
+ left: 10%;
+ color: #ddd;
+}
+.headline1{
+ position: absolute;
+ top: 70%;
+ color: #ddd;
+ right: 6%;
+ font-size: 20px;
+}
+.AppStore{
+ position: absolute;
+ top: 80%;
+ right: 5%;
+}
+.AppStore1{
+ position: absolute;
+ top: 80%;
+ right: 5%;
+ display: none;
+}
+.GooglePlay{
+ position: absolute;
+ top: 90%;
+ right: 5%;
+}
+.GooglePlay1{
+ position: absolute;
+ top: 90%;
+ right: 5%;
+ display: none;
+}
+.scrren3{
+  display: none;
+}
+
+.PhoneImgL{
+  display: none;
+
+}
+.vectorAsus{
+  display: none;
+}
+.playAus{
+  display: none;
+}
+.scrrenAus{
+  display: none;
+}
