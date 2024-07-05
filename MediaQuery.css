@@ -66,7 +66,7 @@
     }
     #mobileBand1{
       display: flex;
-      margin-top: -22em;
+      margin-top: -21em;
       margin-left: 17.2em;
     }
     #Phonimg2{
@@ -317,6 +317,7 @@
       color: black;
       font-size: 11px;
       display: block;
+
     }
 
     #paregrap{
